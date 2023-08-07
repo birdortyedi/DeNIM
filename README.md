@@ -49,6 +49,17 @@ python main.py --cfg configs/train_<backbone_type>_<patch_size>_<num_channels>.y
 * **Available patch sizes:** 64, 128
 * **Available number of channels for different WB settings:** 9, 15
 
+
+## Pre-trained weights
+
+To prepare pre-trained weights for both backbones and DeNIM, download files from [link][link], then:
+
+```
+mv weights.zip DeNIM/
+cd DeNIM
+unzip weights.zip
+```
+
 ## Evaluation
 
 To evaluate DeNIM on Cube+ dataset, run:
@@ -69,5 +80,6 @@ Please feel free to open an issue or to send an e-mail to ```furkan.kinli@ozyegi
 
 [results]: images/paper/results.png
 [model]: images/paper/denim.png
+[link]: https://www.dropbox.com/scl/fi/1fw1xeibigiflar5kqki3/weights.zip?rlkey=wiw15xnxmxm9nn05ving1v4ls&dl=0
 <!-- [paper]:  
 [arxiv]:   -->
