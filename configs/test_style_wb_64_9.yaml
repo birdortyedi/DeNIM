@@ -1,0 +1,11 @@
+k: 32
+sz: 256
+ch: 9
+ps: 64
+DATASET_NAME: CubeWB
+DATASET_ROOT: "/media/birdortyedi/e5042b8f-ca5e-4a22-ac68-7e69ff648bc4/RenderedWB/"
+BACKBONE_TYPE: "style_wb"
+BACKBONE_WEIGHTS_PATH: "weights/style_wb/style_wb_64_9.pth"
+IMG_SIZE: 256
+INIT_FROM: "weights/denim/style_wb_64_9.pth"
+ENTITY: "vvgl-ozu"
