@@ -1,0 +1,12 @@
+colour==0.1.5
+fire==0.4.0
+glog==0.3.1
+kornia==0.6.4
+numpy==1.24.2
+opencv_contrib_python==4.7.0.72
+Pillow==10.0.0
+PyYAML==6.0.1
+torch==2.0.0
+torchvision==0.15.1
+tqdm==4.64.0
+wandb==0.14.2
